@@ -512,6 +512,7 @@ a.lang__pass2:hover{
     }
     .video__content {
         padding: 4rem;
+        top: 12rem;
     }
     .video__text {
         margin: 0 0 1rem 0;
@@ -594,7 +595,7 @@ a.lang__pass2:hover{
 }
 @media(max-width: 360px){
     .video__content {
-        top: 23rem;
+        top: 22rem;
         left: 0.5rem;
     }
     .video__text {
@@ -605,4 +606,14 @@ a.lang__pass2:hover{
         line-height: 1.5rem;
         font-size: 1.1rem;
     }
+}
+
+
+/*===================================*/
+
+
+.content__block-1 {
+    background-color: rgba(255, 184, 241, 1);
+    min-height: 100vh;
+    margin-top: -6.2rem;
 }
