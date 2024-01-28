@@ -556,4 +556,53 @@ a.lang__pass2:hover{
     .video__content{
         top: 20rem;
     }
+    .video_pro {
+        max-height: 70vh;
+    }
+    .video__content {
+        padding: 0rem;
+        top: 26rem;
+        left: 1rem;
+        color: rgb(188, 26, 156);
+        background-color: transparent;
+        border: none;
+        z-index: 2;
+        max-width: 90vw;
+    }
+    .video__text {
+        padding: 0;
+        font-size: 1.7rem;
+    }
+    .video__text span {
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+@media(max-width: 430px){
+    .video__content {
+        top: 25rem;
+        left: 0.5rem;
+    }
+    .video__text {
+        padding: 0;
+        font-size: 1.7rem;
+    }
+    .video__text span {
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 360px){
+    .video__content {
+        top: 23rem;
+        left: 0.5rem;
+    }
+    .video__text {
+        padding: 0;
+        font-size: 1.7rem;
+    }
+    .video__text span {
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
 }
