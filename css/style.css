@@ -595,7 +595,7 @@ a.lang__pass2:hover{
 }
 @media(max-width: 360px){
     .video__content {
-        top: 22rem;
+        top: 21rem;
         left: 0.5rem;
     }
     .video__text {
