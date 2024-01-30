@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/iconsfont.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <div class="wrapper">
@@ -83,78 +84,80 @@
 
 
         <main class="main">
-            <div class="main__container">
-                <div class="video__block">
-                    <div class="video__content">
-                        <h1 class="video__text">Welcome to Choco Loco Berries! <br> <span>The sweetest strawberries are here for you!</span></h1>
-                        <p class="video__subtext">Strawberry is one of the most delisios and favorite sweet we know.<br>
-                            But what can be better than strawberry? <br>
-                            We can assure you that the best gift ever is strawberry in chocolate! <br>
-                        </p>
-                            <p class="video__subtext">If you want to impress someone you love with a special gift, then you are at the right place!
-                            We are always here for you and ready to help you to choose the best gift EVER!
-                        </p>
+            <div class="menu__container">
+                <section class="menu__f">
+                    <div class="menu__f-title">Behind each of our strawberries<br> hides lots of <span> love</span></div>
+                    <div class="buttons__icons">
+                        <a href="menu-f.html" class="button__icon button__icon-active">
+                            <img src="img/f.png" class="menu__icon-s" alt="">
+                            <div class="menu__text menu__text-active">Strawberry<br>Bouquets</div>
+                        </a>
+                        <a href="menu-s.html" class="button__icon">
+                            <img src="img/s.png" class="menu__icon-s" alt="">
+                            <div class="menu__text">Strawberry<br>Boxes</div>
+                        </a>
+                        <a href="menu-b.html" class="button__icon">
+                            <img src="img/b.png" class="menu__icon-s" alt="">
+                            <div class="menu__text">Banana<br>Boxes</div>
+                        </a>
                     </div>
-                    <div class="video__container">
-                        <video autoplay muted loop id="myVideo" class="video_pro">
-                            <source src="img/video_pro.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="content__block-1">
-                    <div class="catalog__container">
-                        <div class="container__block-1">
-                            <h2 class="block-1__title">Catalog</h2>
-                        </div>
-                        <div class="catalog__items">
-                            <div class="catalog__item">
-                                <div class="catalog__item-img">
-                                    <img src="img/bouquet.jpg" alt="">
-                                </div>
-                                <div class="catalog__item_content">
-                                    <div class="catalog__item_content-title">Bouquets</div>
-                                    <p class="catalog__item_content-subtitle">
-                                        Chocolate Strawberry Bouquets are made from delicious fresh strawberries hand-dipped in premium Belgian chocolate and decorated with sugar dust or sprinkle accents or berries.
-                                    </p>
-                                    <p class="catalog__item_content-subtitle">
-                                        Our bouquets make perfect center pieces and colors can be customized to match the theme of your event. We are always here for you!
-                                    </p>
-                                    <div class="catalog__item_content-size">Size: S, M, L</div>
-                                </div>
+                    <div class="block__items">
+                        <div class="item__card">
+                            <div class="item__image">
+                                <img src="img/bouquet.jpg" alt="">
                             </div>
-                            <div class="catalog__item">
-                                <div class="catalog__item-img">
-                                    <img src="img/str-box.jpg" alt="">
+                            <div class="item__content-t">
+                                <div class="item__title">"Thank you" Bouquet</div>
+                                <div class="item__size">
+                                    <div class="item__size-1">Size</div>
+                                    <div class="item__size-2">M</div>
                                 </div>
-                                <div class="catalog__item_content">
-                                    <div class="catalog__item_content-title">Strawberry Box</div>
-                                    <p class="catalog__item_content-subtitle">
-                                        Chocolate Strawberry Boxes are made from delicious fresh strawberries hand-dipped in premium Belgian chocolate and decorated with sugar dust or sprinkle accents or berries.
-                                    </p>
-                                    <p class="catalog__item_content-subtitle">
-                                        Our Strawberry Box is one of the favourite gift for the ones you love. Delicious and beautiful, it will melt the coldest hearts and bring all the family together.
-                                    </p>
-                                    <div class="catalog__item_content-size">Size: S, M, L</div>
+                                <div class="item__pieces">
+                                    <div class="item__name">Strawberry</div>
+                                    <div class="item__number">~ 18 berries</div>
                                 </div>
-                            </div>
-                            <div class="catalog__item">
-                                <div class="catalog__item-img">
-                                    <img src="img/bananas.jpg" alt="">
-                                </div>
-                                <div class="catalog__item_content">
-                                    <div class="catalog__item_content-title">Banana Box</div>
-                                    <p class="catalog__item_content-subtitle">
-                                        Chocolate Banana Boxes are made from tropical fresh bananas hand-dipped in premium Belgian chocolate and decorated with sugar dust or sprinkle accents or berries.
-                                    </p>
-                                    <p class="catalog__item_content-subtitle">
-                                        Our Banana Box is perfect for exotic lovers, and will remind you about the beach, palmtrees and hot sun. As the sweetest present it will bring sun and love to you and your family and friends.
-                                    </p>
-                                    <div class="catalog__item_content-size">Size: S, M, L</div>
-                                </div>
+                                <div class="item__text">Medium Strawberry Bouquet is a perfect bouquet to say your friends and family "Thank you"!</div>
+                                <div class="item__price">50 €</div>
                             </div>
                         </div>
+                        <div class="item__card">
+                            <div class="item__image">
+                                <img src="img/bouquet.jpg" alt="">
+                            </div>
+                            <div class="item__content-t">
+                                <div class="item__title">"Love you" Bouquet</div>
+                                <div class="item__size">
+                                    <div class="item__size-1">Size</div>
+                                    <div class="item__size-2">L</div>
+                                </div>
+                                <div class="item__pieces">
+                                    <div class="item__name">Strawberry</div>
+                                    <div class="item__number">~ 27 berries</div>
+                                </div>
+                                <div class="item__text">Large Strawberry Bouquet is an ideal gift to show your love and gentle feelings to the special person.</div>
+                                <div class="item__price">75 €</div>
+                            </div>
+                        </div>
+                        <div class="item__card">
+                            <div class="item__image">
+                                <img src="img/bouquet.jpg" alt="">
+                            </div>
+                            <div class="item__content-t">
+                                <div class="item__title">"Special Love" Bouquet</div>
+                                <div class="item__size">
+                                    <div class="item__size-1">Size</div>
+                                    <div class="item__size-2">XL</div>
+                                </div>
+                                <div class="item__pieces">
+                                    <div class="item__name">Strawberry</div>
+                                    <div class="item__number">~ 40 berries</div>
+                                </div>
+                                <div class="item__text">Extra Large Strawberry Bouquet will help you to impress the person you love in the special day!</div>
+                                <div class="item__price">100 €</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
 
             <footer class="footer">
