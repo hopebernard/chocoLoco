@@ -165,7 +165,7 @@
     line-height: 2rem;
     font-size: 1.3rem;
     display: flex;
-    gap: 7rem;
+    gap: 6.5rem;
     flex-direction: row;
 }
 .item__size-1 {
@@ -174,12 +174,16 @@
 .item__size-2 {
     font-weight: 800;
 }
+.item__pieces1,
 .item__pieces {
     line-height: 1.8rem;
     font-size: 1.3rem;
     display: flex;
     gap: 3rem;
     margin-bottom: 0.5rem;
+}
+.item__pieces1 {
+    gap: 5rem;
 }
 .item__name {
     font-weight: 500;
