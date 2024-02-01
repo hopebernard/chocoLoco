@@ -67,3 +67,55 @@ burgerIcon.addEventListener('click', function() {
 ======================================*/
 
 
+function bildSliders() {
+    let sliders = document.querySelectorAll('[class*="__swiper"]:not(.swiper-wrapper)');
+    if (sliders) {
+        sliders.forEach(slider => {
+            slider.parentElement.classList.add('swiper');
+            slider.classList.add('swiper-wrapper');
+            for (const slide of slider.children) {
+                slide.classList.add('swiper-slide');
+            }
+        });
+    }
+}
+
+function initSliders() {
+    bildSliders();
+    if (document.querySelector('.show__slider')) {
+        new Swiper('.show__slider', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            observer: true,
+            spaceBetween: 10,
+            breakpoints: {
+                400: {
+                    slidesPerView: 1,
+                },
+                780: {
+                    slidesPerView: 2,
+                },
+                1200: {
+                    slidesPerView: 3,
+                },
+                1590: {
+                    slidesPerView: 4,
+                },
+                2220: {
+                    slidesPerView: 5,
+                    autoHeight: true,
+                },
+            }
+        });
+    }
+};
+
+window.addEventListener('load', function(e) {
+    initSliders();
+});
+window.addEventListener('resize', function(e) {
+    initSliders();
+});
