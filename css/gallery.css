@@ -77,7 +77,7 @@
     .gallery__imgs {
         margin: 0 auto;
         width: 270px;
-        height: 270px;
+        height: 320px;
         border-radius: 20px;
     }
     .gallery__imgs img {
@@ -88,7 +88,6 @@
     .gallery__videos {
         margin: 0 auto;
         width: 270px;
-        height: 270px;
         border-radius: 20px;
     }
     .gallery__videos video {
