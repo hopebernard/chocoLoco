@@ -17,18 +17,18 @@
 .gallery__imgs {
     margin: 0 auto;
     width: 350px;
-    height: 350px;
+    height: 400px;
     border-radius: 20px;
 }
 .gallery__imgs img {
     border-radius: 20px;
     width: 350px;
-    height: 350px;
+    height: 400px;
 }
 .gallery__videos {
     margin: 0 auto;
     width: 350px;
-    height: 350px;
+    height: 650px;
     border-radius: 20px;
 }
 .gallery__videos video {
