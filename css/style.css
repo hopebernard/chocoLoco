@@ -479,7 +479,7 @@ a.lang__pass2:hover{
     width: 100vw;
     max-height: 120vh;
     object-fit: cover;
-    background-color: #210800;
+    background: #210800;
 }
 .video__block {
     position: relative;
