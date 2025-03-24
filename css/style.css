@@ -165,7 +165,7 @@ a.actions-header__location {
     bottom: 0px;
 }
 .icon-menu._burger-icon-active {
-    background-color: rgba(255, 184, 241, 1);
+    background-color: #8c1a1a;
 }
 .icon-menu._burger-icon-active span{
     transform: scale(0);
@@ -182,7 +182,7 @@ a.actions-header__location {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -0.5rem;
+    top: -0.2rem;
     gap: 0rem;
     line-height: 1rem;
     padding: 0;
@@ -231,7 +231,7 @@ a.lang__pass2:hover{
     .lang{
         align-items: flex-end;
         padding-right: 4rem;
-        top: 0.2rem;
+        top: 1rem;
     }
     .menu-top-header__rows {
         position: relative;
@@ -331,7 +331,7 @@ a.lang__pass2:hover{
         left: -170%;
         width: 100vw;
         height: 50%;
-        background: rgba(255, 184, 241, 1);
+        background: #8c1a1a;
         z-index: 10;
     }
     .menu__body {
@@ -361,7 +361,7 @@ a.lang__pass2:hover{
         position: fixed;
         width: 100%;
         height: 50px;
-        background-color: rgba(255, 184, 241, 1);
+        background-color: #8c1a1a;
         top: 0;
         left: 0;
         z-index: 49;
@@ -385,20 +385,16 @@ a.lang__pass2:hover{
         font-size: 2.5rem;
     }
 }
-@media(max-width: 650px){
+@media(max-width: 800px){
     .lang {
         flex-direction: row;
         position: absolute;
-        right: 0rem;
-        bottom: 0.8rem;
+        right: 1rem;
+        top: 1.5rem;
     }
     a.phones-header__phone,
     a.actions-header__location {
         font-size: calc(16px + 10 * (100vw / 992));
-    }
-    .menu-top-header__rows{
-        padding-left: 0;
-        padding-right: 0;
     }
     .menu-top-header__list-1{
         display: block;
@@ -415,7 +411,7 @@ a.lang__pass2:hover{
         width: 50%;
         height: 50%;
         z-index: 59;
-        top: -30rem;
+        top: -20rem;
         left: calc(150px + 200 * (100vw / 1200));
     }
     .menu-top-header__link {
@@ -436,17 +432,10 @@ a.lang__pass2:hover{
         max-width: calc(10px + 1000 * (100vw / 1280));
     }
     a.actions-header__location {
-        font-size: calc(16px + 16 * (100vw / 992));
+        display: none;
     }
     .phones-header__phone {
         display: none;
-    }
-    .lang {
-        max-width: 150px;
-        display: flex;
-        left: 0.7rem;
-        bottom: 0.5rem;
-        padding: 0;
     }
     a.menu-top-header__link {
         font-size: 2rem;
@@ -500,13 +489,10 @@ a.lang__pass2:hover{
     padding: 6rem;
     top: 8rem;
     right: 3rem;
-    color: #af0707;
-    background-color: rgba(255, 184, 241, 0.7);
-    border: solid 3px #fff;
+    color: #ff9e9e;
     text-align: center;
-    border-radius: 50%;
     z-index: 2;
-    max-width: 45vw;
+    max-width: 200vw;
 }
 .video__text {
     margin: 0 0 1.5rem 0;
@@ -517,7 +503,7 @@ a.lang__pass2:hover{
 }
 .video__subtext {
     font-size: 1.5rem;
-    color: #771515b2;
+    color: #ffd1d1;
     font-weight: 600;
     line-height: 1.8rem;
     margin-bottom: 1.5rem;
@@ -532,7 +518,8 @@ a.lang__pass2:hover{
     }
     .video__content {
         padding: 4rem;
-        top: 12rem;
+        top: 20rem;
+        max-height: 90vh;
     }
     .video__text {
         margin: 0 0 1rem 0;
@@ -547,7 +534,6 @@ a.lang__pass2:hover{
     }
     .video__subtext {
         font-size: 1.2rem;
-        color: #771515bb;
         font-weight: 600;
         line-height: 1.8rem;
         margin-bottom: 1rem;
@@ -557,15 +543,12 @@ a.lang__pass2:hover{
     }
 }
 @media(max-width: 950px){
-    .video__subtext{
-        display: none;
-    }
     .video__content {
         margin: 0.5rem;
         display: inline-block;
         position: absolute;
         padding: 2rem 2rem 1rem;
-        top: 6rem;
+        top: 10rem;
         right: 0;
         text-align: center;
         z-index: 2;
@@ -577,15 +560,12 @@ a.lang__pass2:hover{
         top: 20rem;
     }
     .video_pro {
-        max-height: 70vh;
+        max-height: 100vh;
     }
     .video__content {
         padding: 0rem;
-        top: 26rem;
+        top: 7rem;
         left: 1rem;
-        color: rgb(188, 26, 156);
-        background-color: transparent;
-        border: none;
         z-index: 2;
         max-width: 90vw;
     }
@@ -600,7 +580,7 @@ a.lang__pass2:hover{
 }
 @media(max-width: 430px){
     .video__content {
-        top: 25rem;
+        top: 7rem;
         left: 0.5rem;
     }
     .video__text {
@@ -614,8 +594,8 @@ a.lang__pass2:hover{
 }
 @media(max-width: 360px){
     .video__content {
-        top: 21rem;
-        left: 0.5rem;
+        top: 5.5rem;
+        left: 0.3rem;
     }
     .video__text {
         padding: 0;
@@ -624,6 +604,10 @@ a.lang__pass2:hover{
     .video__text span {
         line-height: 1.5rem;
         font-size: 1.1rem;
+    }
+    .video__subtext {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
     }
 }
 
