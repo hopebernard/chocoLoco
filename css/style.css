@@ -713,7 +713,7 @@ a.lang__pass2:hover{
     padding: 2rem 0;
 }
 .footer__content {
-    color: rgb(255, 214, 247);
+    color: rgb(255, 214, 214);
     font-size: 1.5rem;
     position: relative;
 }
@@ -732,10 +732,12 @@ a.lang__pass2:hover{
 .footer__contact a{
     color: #fff;
 }
+.contact__address {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
 .contact__text {
     margin: 2rem 0 1rem;
-}
-.contact__phone {
 }
 .footer__del-img {
     position: absolute;
@@ -815,6 +817,13 @@ a.lang__pass2:hover{
     }
     .social-footer {
         padding: 0 0 1rem;
+    }
+    .footer__content {
+        font-size: 1.2rem;
+    }
+    .contact__address {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
     }
 }
 @media (max-width: 340px) {

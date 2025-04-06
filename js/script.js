@@ -95,17 +95,14 @@ function initSliders() {
                 300: {
                     slidesPerView: 1,
                 },
-                780: {
+                750: {
                     slidesPerView: 2,
                 },
-                1200: {
+                990: {
                     slidesPerView: 3,
                 },
                 1590: {
                     slidesPerView: 4,
-                },
-                2220: {
-                    slidesPerView: 5,
                     autoHeight: true,
                 },
             }
