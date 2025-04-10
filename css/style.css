@@ -654,12 +654,15 @@ a.lang__pass2:hover{
     background-color: rgb(255, 194, 194);
     min-width: 200px;
     height: 100%;
-    display: flex;
     flex-direction: column;
     margin: 0 auto;
     border-radius: 40px;
     box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.842);
     overflow: hidden;
+}
+.catalog__item-link {
+    display: flex;
+    flex-direction: column;
 }
 .catalog__item-img {
     max-width: fit-content;
@@ -672,10 +675,9 @@ a.lang__pass2:hover{
     border-radius: 50%;
 }
 .catalog__item_content {
-    display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     gap: 1rem;
-    flex: 1 1 auto;
 }
 .catalog__item_content-title {
     font-size: 2rem;
@@ -688,13 +690,12 @@ a.lang__pass2:hover{
     font-weight: 500;
     line-height: 1.5rem;
     font-size: 1.2rem;
-    flex: 1 1 auto;
+    padding: 0.5rem 0;
 }
 .catalog__item_content-size {
     font-size: 1.5rem;
     color: #af0707;
     font-weight: 600;
-    flex: 1 1 auto;
 }
 
 
@@ -788,7 +789,7 @@ a.lang__pass2:hover{
 }
 @media (max-width: 830px) {
     .footer__del-img {
-        top: 5rem;
+        top: 6.5rem;
         left: 22rem;
     }
     .contact__phone {

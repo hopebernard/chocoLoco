@@ -1,30 +1,36 @@
 .content{
-    padding-top: 8rem;
-    background: url('../img/str-bgc.jpg') 50% 100% / cover no-repeat;
-    max-width: 100vw;
-    padding-bottom: 2rem;
+    
+}
+.video__container-c {
+    position: relative;
+    min-height: 80rem;
+}
+.video__container-c video {
+    min-height: 80rem;
+    top: 0;
 }
 ._container-d{
+    position: absolute;
+    top: 7rem;
     width: 80%;
-    margin: 0 auto;
 }
 .text__body{
-    display: inline-block;
     padding: 3rem;
     letter-spacing: 2px;
     line-height: 2.8rem;
     text-align: left;
     margin-bottom: 5rem;
     font-weight: 800;
-    background-color: rgba(255, 171, 199, 0.612);
+    background-color: rgba(255, 2, 2, 0.612);
     border: 2px solid #fff;
     border-radius: 50px;
+    margin: 4rem;
 }
 .text__title{
     line-height: 2rem;
     font-size: 2.8rem;
     margin-bottom: 4rem;
-    color: #8c1a1a;
+    color: #ffffff;
 }
 .text__subtitle{
     letter-spacing: 4px;
@@ -34,10 +40,10 @@
 .sub__email,
 .sub__phone{
     display: block;
-    color: #7f0404;
+    color: #ffffff;
     box-shadow: 1px 1px 5px 5px #fff;
     border-radius: 10px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 4rem 0.5rem 1rem;
 }
 a.sub__phone{
     margin-bottom: 1.5rem;
@@ -47,8 +53,8 @@ a.sub__phone{
 }
 .text__text {
     flex: 1 1 auto;
-    color: #7f0404;
-    font-size: 1.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
     font-style: italic;
 }
 .text__body-1 {
@@ -65,12 +71,57 @@ a.sub__phone{
     position: relative;
     gap: 1.3rem;
 }
+.text__sections {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 0 2rem 3rem 3rem;
+    color: #810038;
+    font-weight: 800;
+}
+.text__section {
+    padding: 0 0 1rem 0;
+}
+.text__section-milk {
+    color: #66370f;
+}
+.text__section-dark {
+    color: #251100;
+}
+.text__section-white {
+    color: #fff7b1;
+}
+.text__section-pink {
+    color: #ff70c6;
+}
+.text__section-red {
+    color: #ff0000;
+}
+.text__section-orange {
+    color: #ff7300;
+}
+.text__section-yellow {
+    color: #ffd500;
+}
+.text__section-green {
+    color: #51ff00;
+}
+.text__section-blue {
+    color: #006aff;
+}
+.text__section-allergies {
+    color: #ff2121;
+    font-weight: 900;
+}
 @media (max-width: 992px) {
     .content {
         padding-bottom: 0;
     }
     ._container-d{
+        top: 5rem;
         width: 90%;
+    }
+    .text__body {
+        margin: 2rem;
     }
     .text__title{
         font-size: 2.5rem;
@@ -80,6 +131,15 @@ a.sub__phone{
         letter-spacing: 3px;
         font-size: 1.5rem;
         margin-bottom: 2rem;
+    }
+    .video__container-c {
+        min-height: 75rem;
+    }
+    .video__container-c video {
+        min-height: 75rem;
+    }
+    .text__section {
+        font-size: 1.5rem;
     }
 }
 @media (max-width: 650px) {
@@ -98,18 +158,31 @@ a.sub__phone{
         display: block;
     }
     .text__text {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.6rem;
     }
     .social-footer__link img {
         max-width: 60px;
     }
     ._container-d{
-        width: 97%;
+        width: 100%;
         margin: 0 auto;
     }
+    .video__container-c {
+        min-height: 30rem;
+    }
+    .video__container-c video {
+        min-height: 30rem;
+    }
+    .text__section {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .text__body {
+        margin: 1rem 0.5rem 3rem;
+    }
 }
-@media (max-width: 430px) {
+@media (max-width: 450px) {
     .text__title {
         font-size: 2rem;
         margin-bottom: 1.5rem;
@@ -119,23 +192,27 @@ a.sub__phone{
         font-size: 1.3rem;
     }
     .text__text{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .sub__email {
         padding: 0.2rem;
+        line-height: 2rem;
+    }
+    .text__sections {
+        padding: 0.5rem;
     }
 }
-@media (max-width: 330px) {
+@media (max-width: 370px) {
     .text__body {
         padding: 0.5rem;
         border-radius: 10px;
     }
     .text__subtitle{
         letter-spacing: 1px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     ._container-d{
-        width: 98%;
+        width: 100%;
     }
     .text__text{
         line-height: 1.2rem;
