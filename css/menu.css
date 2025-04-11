@@ -116,7 +116,7 @@
 
 
 .menu__f {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 .block__items {
     margin-top: 2.5rem;
@@ -159,37 +159,25 @@
     margin-bottom: 1rem;
     padding-right: 0.8rem;
 }
+.item__pars {
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 0.5rem 0;
+    line-height: 2rem;
+}
+.item__pars-names {
+    font-size: 1.3rem;
+}
+.item__pars-signs {
+    font-weight: 900;
+    font-size: 1.3rem;
+}
 .item__size {
     line-height: 2rem;
     font-size: 1.3rem;
     display: flex;
     gap: 5.5rem;
     flex-direction: row;
-}
-.item__size-de-b {
-    gap: 3.8rem;
-}
-.item__size-1 {
-    font-weight: 500;
-}
-.item__size-2 {
-    font-weight: 800;
-}
-.item__pieces {
-    line-height: 1.8rem;
-    font-size: 1.3rem;
-    display: flex;
-    gap: 1.2rem;
-    margin-bottom: 0.5rem;
-}
-.item__pieces-de {
-    gap: 3.3rem;
-}
-.item__pieces-de-b {
-    gap: 0.5rem;
-}
-.item__pieces-de-s {
-    gap: 2.5rem;
 }
 .item__name {
     font-weight: 500;
