@@ -654,15 +654,12 @@ a.lang__pass2:hover{
     background-color: rgb(255, 194, 194);
     min-width: 200px;
     height: 100%;
+    display: flex;
     flex-direction: column;
     margin: 0 auto;
     border-radius: 40px;
     box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.842);
     overflow: hidden;
-}
-.catalog__item-link {
-    display: flex;
-    flex-direction: column;
 }
 .catalog__item-img {
     max-width: fit-content;
@@ -684,6 +681,7 @@ a.lang__pass2:hover{
     font-weight: bold;
     color: #af0707;
     text-align: center;
+    margin: 0 0 0.5rem 0;
 }
 .catalog__item_content-subtitle {
     color: #8c1a1a;
@@ -696,6 +694,11 @@ a.lang__pass2:hover{
     font-size: 1.5rem;
     color: #af0707;
     font-weight: 600;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.catalog__item_content-size span{
+    padding: 0 0 0 1rem;
 }
 
 

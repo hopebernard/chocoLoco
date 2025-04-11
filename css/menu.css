@@ -147,7 +147,7 @@
     flex: 1 1 auto;
     color: #770000;
     font-weight: 500;
-    margin: 0.2rem 1rem 0rem 1rem;
+    margin: 0.2rem 0.5rem 0rem 0.5rem;
     padding: 1rem 0.2rem 1rem 1rem;
     display: flex;
     flex-direction: column;
@@ -166,13 +166,15 @@
     gap: 5.5rem;
     flex-direction: row;
 }
+.item__size-de-b {
+    gap: 3.8rem;
+}
 .item__size-1 {
     font-weight: 500;
 }
 .item__size-2 {
     font-weight: 800;
 }
-.item__pieces1,
 .item__pieces {
     line-height: 1.8rem;
     font-size: 1.3rem;
@@ -180,8 +182,14 @@
     gap: 1.2rem;
     margin-bottom: 0.5rem;
 }
-.item__pieces1 {
-    gap: 5rem;
+.item__pieces-de {
+    gap: 3.3rem;
+}
+.item__pieces-de-b {
+    gap: 0.5rem;
+}
+.item__pieces-de-s {
+    gap: 2.5rem;
 }
 .item__name {
     font-weight: 500;
