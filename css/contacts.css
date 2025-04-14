@@ -133,10 +133,10 @@ a.sub__phone{
         margin-bottom: 2rem;
     }
     .video__container-c {
-        min-height: 75rem;
+        min-height: 80rem;
     }
     .video__container-c video {
-        min-height: 75rem;
+        min-height: 80rem;
     }
     .text__section {
         font-size: 1.5rem;
@@ -169,10 +169,10 @@ a.sub__phone{
         margin: 0 auto;
     }
     .video__container-c {
-        min-height: 30rem;
+        min-height: 40rem;
     }
     .video__container-c video {
-        min-height: 30rem;
+        min-height: 40rem;
     }
     .text__section {
         font-size: 1.2rem;
